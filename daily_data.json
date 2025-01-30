@@ -1,0 +1,18 @@
+{
+    "pushups": {
+        "checked": true,
+        "reps": "20"
+    },
+    "squats": {
+        "checked": true,
+        "reps": "20"
+    },
+    "abs": {
+        "checked": true,
+        "reps": "20"
+    },
+    "pullups": {
+        "checked": true,
+        "reps": "20"
+    }
+}

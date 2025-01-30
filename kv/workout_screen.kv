@@ -1,0 +1,17 @@
+# kv/workout_screen.kv
+WorkoutScreen:
+    BoxLayout:
+        orientation: 'vertical'
+        canvas.before:
+            Color:
+                rgba: 0, 0, 0, 1  # чёрный фон
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        Label:
+            text: 'Тренировки'
+            font_size: 32
+            color: 1, 1, 1, 1  # белый текст
+            size_hint: None, None
+            size: self.texture_size
+            pos: self.center
